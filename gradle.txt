@@ -1,0 +1,21 @@
+I'm learning about Gradle.
+
++ I created a boilerplate java project in intellij.
++ Then I added a class with an external dependency, Gson.
++ Then I manually added the Gson jar file (external library)
++ I never really built the project, I just added a simple main and executed directly
++ That worked, but was kind of annoying...
+
+Gradle solves some of these problems
++ If I want to update Gson, apparently Gradle helps with that
++ I also get some neato tasks I can execute from the command line, like...
++ `gradle build` builds the whole thing
++ `gradle test` runs the tests
++ `gradle jar` creates a jar
+
+Speaking of which...What's a jar?
++ I read on wikipedia a jar (Java ARchive) is file format that allows retrieving all classes and resources in a single request
++ I also tried `jar -xf gson-2.8.2.jar` to extract the contents of gson to see what's going on and I looked at the manifest
+
+
+What does it mean to "build" something?
