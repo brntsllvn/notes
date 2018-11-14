@@ -13,9 +13,8 @@ Gradle solves some of these problems
 + `gradle test` runs the tests
 + `gradle jar` creates a jar
 
+
 Speaking of which...What's a jar?
 + I read on wikipedia a jar (Java ARchive) is file format that allows retrieving all classes and resources in a single request
 + I also tried `jar -xf gson-2.8.2.jar` to extract the contents of gson to see what's going on and I looked at the manifest
 
-
-What does it mean to "build" something?
